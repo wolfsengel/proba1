@@ -13,6 +13,9 @@ h1{
 
 /* Make all <h2> elements IndianRed */
 
+h2{
+    color: IndianRed;
+}
 
 /* Make all text inside li tags salmon*/ 
 
