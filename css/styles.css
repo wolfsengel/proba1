@@ -32,7 +32,7 @@ p{
 /*Make all inputs have a 3px color #73fa80 border*/
 
 input{
-    border-color: #73fa80; border: width 3px;
+    border-color: #73fa80; border:width 3px;
 }
 
 /* Give everything with the class 'first' a salmon background*/
@@ -41,19 +41,23 @@ input{
 }
 
 /* Give the element with id 'special' a 4px solid color rgb(115,250,128) border*/
-.special{
-    border-color: rgb(115, 250, 128);
-    border:width 4px;
-}
+#special{border:solid 4px;}
+#special{border-color: rgb(115, 250, 128);}
+
+
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
-
+div>p{
+    font-size: 25px;
+}
 
 /*Make only inputs with type 'text' have a salmon background*/
-
+[type="text"]{
+    background-color: salmon;
+}
 
 /* Give both <p>'s inside the 3rd <div> a #73fa80 color background*/
-
+div>p{background-color: #73fa58;}
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px salmon border*/
 
@@ -79,5 +83,6 @@ input{
 
 
 /*Make the <a> element's that have been visited salmon */
-
-
+a:active{
+    color: salmon;
+}
