@@ -19,18 +19,32 @@ h2{
 
 /* Make all text inside li tags salmon*/ 
 
+li{
+    color: salmon;
+}
 
 /*Change the background on every paragraph to be #8073fa*/
 
+p{
+    background-color: #8073fa;
+}
 
 /*Make all inputs have a 3px color #73fa80 border*/
 
+input{
+    border-color: #73fa80; border: width 3px;
+}
 
 /* Give everything with the class 'first' a salmon background*/
-
+.first{
+    background-color: salmon;
+}
 
 /* Give the element with id 'special' a 4px solid color rgb(115,250,128) border*/
-
+.special{
+    border-color: rgb(115, 250, 128);
+    border:width 4px;
+}
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
 
