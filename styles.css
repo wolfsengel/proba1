@@ -2,10 +2,14 @@
 DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 
 /* Give the <body> element a background of #d0d3d4*/
-
+body{
+    background: #d0d3d4;
+}
 
 /* Make the <h1> element #cd6155*/
-
+h1{
+    color: #cd6155;
+}
 
 /* Make all <h2> elements IndianRed */
 
